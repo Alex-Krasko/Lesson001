@@ -1,20 +1,11 @@
-﻿int a1;
-int b1;
-int c1;
-int r;
-Console.WriteLine("Поиск максимального из трех");
+﻿int a;
+int b;
 Console.Write("Введите число 1: ");
-string? a = Console.ReadLine();
+a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число 2: ");
-string? b = Console.ReadLine();
-Console.Write("Введите число 3: ");
-string? c = Console.ReadLine();
-a1=Convert.ToInt32(a);
-b1=Convert.ToInt32(b);
-c1=Convert.ToInt32(c);
-
-if (a1>b1) {r = a1;}
-else {r = b1;}
-if (r>c1) {}
-else {r = c1;}
-Console.WriteLine("Максимальное число: "+r);
+b = Convert.ToInt32(Console.ReadLine());
+if (Math.Pow(b,2)==a)
+{
+    Console.WriteLine("Число 1 является квадратом числа 2");
+}
+else { Console.WriteLine("Число 1 НЕ является квадратом числа 2");}
