@@ -11,3 +11,8 @@
 9. [Найти кубы чисел от 1 до N](https://github.com/Alex-Krasko/Lesson001/tree/main/task009)
 10. [Найти сумму чисел от 1 до А](https://github.com/Alex-Krasko/Lesson001/tree/main/task010)
 11. [Задать массив из 8 элементов и вывести их на экран](https://github.com/Alex-Krasko/Lesson001/tree/main/task011)
+12. [Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран](https://github.com/Alex-Krasko/Lesson001/tree/main/task012)
+13. [Задать массив из 12 элементов, заполненных числами из [0,9]. Найти сумму положительных элементов массива](https://github.com/Alex-Krasko/Lesson001/tree/main/task013)
+14. [Выяснить являются ли три числа сторонами треугольника](https://github.com/Alex-Krasko/Lesson001/tree/main/task014)
+15. [Определить сколько чисел больше 0 введено с клавиатуры](https://github.com/Alex-Krasko/Lesson001/tree/main/task015)
+16. [Написать программу преобразования десятичного числа в двоичное](https://github.com/Alex-Krasko/Lesson001/tree/main/task016)
