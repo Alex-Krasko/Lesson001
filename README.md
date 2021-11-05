@@ -10,3 +10,4 @@
 8. [Показать таблицу квадратов чисел от 1 до N](https://github.com/Alex-Krasko/Lesson001/tree/main/task008)
 9. [Найти кубы чисел от 1 до N](https://github.com/Alex-Krasko/Lesson001/tree/main/task009)
 10. [Найти сумму чисел от 1 до А](https://github.com/Alex-Krasko/Lesson001/tree/main/task010)
+11. [Задать массив из 8 элементов и вывести их на экран](https://github.com/Alex-Krasko/Lesson001/tree/main/task011)
