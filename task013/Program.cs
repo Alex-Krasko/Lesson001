@@ -9,7 +9,7 @@ for (int i=0;i<array.Length;i++)
 Console.WriteLine();
 for (int j=0;j<array.Length;j++)
 {
-    if (array[j] > 0)
+    if (array[j] >= 0)
     {
     sum += array[j];
     }
