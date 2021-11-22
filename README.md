@@ -16,3 +16,5 @@
 14. [Выяснить являются ли три числа сторонами треугольника](https://github.com/Alex-Krasko/Lesson001/tree/main/task014)
 15. [Определить сколько чисел больше 0 введено с клавиатуры](https://github.com/Alex-Krasko/Lesson001/tree/main/task015)
 16. [Написать программу преобразования десятичного числа в двоичное](https://github.com/Alex-Krasko/Lesson001/tree/main/task016)
+17. [Заполнение двумерного массива пазмерностью (n,m) числами](https://github.com/Alex-Krasko/Lesson001/tree/main/task017)
+18. [Дан целочисленный двумерный массив, размерности n х m. Найти сумму и произведение всех элементов массива.](https://github.com/Alex-Krasko/Lesson001/tree/main/task018)
