@@ -1,4 +1,4 @@
-﻿void SetArray(int[,] a)
+﻿void SetArray(int[,] a) //Заполняет массив числами от 0 до [a+b] размера массива
 {
 for(int i=0;i<a.GetLength(0);i++)
     for(int j=0;j<a.GetLength(1);j++)
