@@ -18,3 +18,4 @@
 16. [Написать программу преобразования десятичного числа в двоичное](https://github.com/Alex-Krasko/Lesson001/tree/main/task016)
 17. [Заполнение двумерного массива пазмерностью (n,m) числами](https://github.com/Alex-Krasko/Lesson001/tree/main/task017)
 18. [Дан целочисленный двумерный массив, размерности n х m. Найти сумму и произведение всех элементов массива.](https://github.com/Alex-Krasko/Lesson001/tree/main/task018)
+19. [Игра "Угадай число!"](https://github.com/Alex-Krasko/Lesson001/tree/main/task019)
