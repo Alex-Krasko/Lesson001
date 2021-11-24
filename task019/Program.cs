@@ -1,22 +1,22 @@
-﻿int secret = GenNumber(1, 51);
-int countOfAttempts = 5;
+﻿int secret, min, max;
+int countOfAttempts;
 int b = 0;
 
 int RequestNumber()
 {
-    Console.Write("Введите число: ");
     int number = Convert.ToInt32(Console.ReadLine());
     return number;
 }
 
 int GenNumber(int min, int max)
 {
-    int number = new Random().Next(min, max);
+    int number = new Random().Next(min, max+1);
     return number;
 }
 
 int MakeMove(int SecretNumber, int CountOfAttempts)
 {
+    Console.Write("Введите число: ");
     int recNum = RequestNumber();
     if (CountOfAttempts != 0)
     {
@@ -41,7 +41,6 @@ int MakeMove(int SecretNumber, int CountOfAttempts)
 
 }
 
-Console.WriteLine("Компьютер загадал число в диапазоне от 1 до 50. У Вас есть 5 попыток, чтобы угадать это число");
 void Main()
 {
     countOfAttempts--;
@@ -68,4 +67,14 @@ void Main()
 
 }
 
+Console.WriteLine("Введите минимальное число: ");
+min = RequestNumber();
+Console.WriteLine("Введите максимальное число: ");
+max = RequestNumber();
+Console.WriteLine("Введите число попыток: ");
+countOfAttempts = RequestNumber();
+secret = GenNumber(min,max);
+Console.WriteLine("Для начала игры нажмите любую клавишу.");
+Console.ReadKey();
+Console.WriteLine($"Компьютер загадал число в диапазоне от {min} до {max}. У Вас есть {countOfAttempts} попыток, чтобы угадать это число.");
 Main();
