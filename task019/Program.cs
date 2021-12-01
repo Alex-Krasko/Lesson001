@@ -68,15 +68,15 @@ void Main()
 
 void Reset()
 {
-Console.Write("Играем еще? (Y - Да, N - Нет)");
+Console.Write("Играем еще? (Y/Д - Да, N/Н - Нет)");
 ConsoleKeyInfo result = Console.ReadKey();
-    if ((result.KeyChar == 'Y') || (result.KeyChar == 'y'))
+    if ((result.KeyChar == 'Y') || (result.KeyChar == 'y') || (result.KeyChar == 'Д') || (result.KeyChar == 'д'))
     {
         b = 0;
         Console.Clear();
         Game();
     }
-    else if ((result.KeyChar == 'N') || (result.KeyChar == 'n'))
+    else if ((result.KeyChar == 'N') || (result.KeyChar == 'n') || (result.KeyChar == 'Н') || (result.KeyChar == 'н'))
     {
      return;
     }
